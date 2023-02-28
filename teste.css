@@ -1,0 +1,30 @@
+*{
+    font-size: 20px;
+}
+.parallax{
+    background-color: rgb(223, 222, 217);
+    
+}
+.parallax h1{
+    padding: 2em 0 1em 1em;
+    text-align: center
+}
+.header{
+    color: rgb(95, 95, 95);
+}
+footer{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: initial;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
